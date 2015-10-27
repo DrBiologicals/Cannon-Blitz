@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ammo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cannon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CINIParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soldier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ammo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cannon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CINIParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="igutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="soldier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Images\Ammo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\AmmoMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\background.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\backgroundMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\BulletMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon105.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon105Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon120.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon120Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon135.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon135Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon150.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon150Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon30.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon30Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon45.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon45Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon60.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon60Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon75.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon75Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Cannon90.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\Cannon90Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Life.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\LifeMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\SoldierAlive.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\SoldierAliveMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\SoldierDead.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Images\Masks\SoldierDeadMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cannon Blitz.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
